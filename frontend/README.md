@@ -1,12 +1,52 @@
-# React + Vite
+📜 Quotes Board — Simple CRUD App with React, Tailwind & Express API
+🧭 Overview
+Quotes Manager is a lightweight, user-friendly React app to manage inspirational quotes.
+It connects to a RESTful Express backend API to create, read, update, and delete quotes in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built with modern tools like React (Vite) and Tailwind CSS for a sleek UI, plus Axios for API communication.
+Perfect for practicing frontend-backend integration with clean UI and smooth UX.
 
-Currently, two official plugins are available:
+🚀 Features
+📋 Display all quotes fetched from the API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✍️ Add new quotes with a simple form
 
-## Expanding the ESLint configuration
+🖊️ Edit existing quotes inline
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗑️ Delete quotes instantly
+
+🔔 Notifications for success/error using react-hot-toast
+
+🎨 Responsive and attractive UI with Tailwind CSS
+
+⚡ Fast, modern stack with React + Vite
+
+🧠 What You'll Learn
+How to build a React frontend consuming a REST API
+
+Managing component state for CRUD operations
+
+Handling asynchronous API calls with Axios
+
+Using Tailwind CSS to build responsive layouts
+
+User-friendly notifications with react-hot-toast
+
+Basic Express backend for managing quotes
+
+📦 Tech Stack
+⚛️ React (Vite)
+
+🎨 Tailwind CSS
+
+🚀 Axios for HTTP requests
+
+🔥 react-hot-toast for notifications
+
+📦 Express.js backend (separate repo/server)
+
+🎯 Getting Started
+✅ Prerequisites
+Node.js (v16+) installed
+
+Backend API running locally at http://localhost:5000 (Express app managing quotes)
